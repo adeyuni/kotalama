@@ -1,0 +1,186 @@
+	::selection { background-color: #E13300; color: white; }
+	::-moz-selection { background-color: #E13300; color: white; }
+
+	body {
+		background-color: #fff;
+		font: 13px/20px normal Helvetica, Arial, sans-serif;
+		color: #4F5155;
+	}
+
+	a {
+		color: #003399;
+		background-color: transparent;
+		font-weight: normal;
+	}
+
+	h1 {
+		color: #444;
+		background-color: transparent;
+		border-bottom: 1px solid #D0D0D0;
+		font-size: 19px;
+		font-weight: normal;
+		margin: 0 0 14px 0;
+		padding: 14px 15px 10px 15px;
+	}
+
+	code {
+		font-family: Consolas, Monaco, Courier New, Courier, monospace;
+		font-size: 12px;
+		background-color: #f9f9f9;
+		border: 1px solid #D0D0D0;
+		color: #002166;
+		display: block;
+		margin: 14px 0 14px 0;
+		padding: 12px 10px 12px 10px;
+	}
+
+	#body {
+		height: 100%;
+	}
+
+	p.footer {
+		text-align: right;
+		font-size: 11px;
+		border-top: 1px solid #D0D0D0;
+		line-height: 32px;
+		padding: 0 10px 0 10px;
+		margin: 20px 0 0 0;
+	}
+
+	#container {
+		margin: 10px;
+		border: 1px solid #D0D0D0;
+		box-shadow: 0 0 8px #D0D0D0;
+	}
+
+
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
+
+
+.top-logo-img{
+	height:50px;
+	display: inline-block;
+	float: none; 
+	vertical-align: top;
+	
+	margin: -20px 0 0 20px;
+}
+
+.top-head{
+	height: 200px;	
+	background-image:url('../../uploads/main-content/header.jpg');
+}
+
+
+
+.navbar-wrapper{
+	margin-top:-50px;
+	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 75%, rgba(255,0,0,0)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(top, rgba(255,255,255,1) 75%, rgba(255,0,0,0)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 75%, rgba(255,0,0,0)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to top, rgba(255,255,255,1) 75%, rgba(255,0,0,0)); /* Standard syntax (must be last) */
+}
+
+#custom-bootstrap-menu .navbar-nav>li>a:hover,
+#custom-bootstrap-menu .navbar-nav>li>a:focus {
+    color: rgba(51, 51, 51, 1);
+	background-color: rgba(0, 0, 0, 0);
+	border-style: solid none none none;
+}
+
+#custom-bootstrap-menu .navbar-nav>.active>a,
+#custom-bootstrap-menu .navbar-nav>.active>a:hover,
+#custom-bootstrap-menu .navbar-nav>.active>a:focus {
+    color: rgba(85, 85, 85, 1);
+    background-color: rgba(0, 0, 0, 0);
+	border-style: solid none none none;
+}
+
+
+/* style for homepage*/
+.img-slider {
+	height:350px;
+	width:600px;
+}
+
+.owl-carousel .owl-item img {
+	width:750px;
+}
+
+
+#homepage-news{
+	margin: 0 20px 20px 20px;
+	background-color:#ccc;
+}
+
+
+@media (min-width: 768px) {
+    #homepage-news{
+		position:relative;
+		margin-top: -70px;
+		z-index:50;
+		
+	}
+}
+.main-news-title{
+	background-color:#000;
+	color:#fff;
+	height:50px;
+}
+
+.main-news-title h3{
+	margin-top: 20px;
+    padding-top: 10px;
+}
+.news-all {
+	margin: 0 10px 10px 10px;
+}
+.news-item {
+	margin: 10px 10px 10px 10px;
+	padding-bottom: 20px;
+	border-style: none none solid none ;
+	border-color: #fff;
+	border-width: 1px;
+}
+
+#homepage-about-us{
+	background-image:url(../../uploads/main-content/about-home.jpg);
+	height: 400px;
+}
+#homepage-event{
+	padding-left:0px;
+	padding-right:0px;
+	padding-bottom:30px;
+}
+
+#homepage-event .title{
+	margin-bottom:-20px;
+	position:relative;
+	z-index:10;
+}
+
+.content-event-box{
+	border-style: solid;
+	border-color: #000;
+}
+
+.content-event{
+	margin: 30px 10px 10px 10px;
+}
+
+.highlight{
+	background-color: #fff;
+	padding: 5px 5px 5px 5px;
+}
+
+/* end style for homepage*/
